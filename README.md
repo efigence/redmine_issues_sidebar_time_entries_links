@@ -24,7 +24,7 @@ Before:
 - go to projects tab
 - select a project
 - click a link to log time
-#### or
+- or:
 - go to issue page
 - click a link to log time
 - remove issue number from form field
