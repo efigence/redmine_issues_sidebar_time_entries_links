@@ -8,5 +8,10 @@
       <%= link_to(l(:label_details), project_time_entries_path(@project)) %> |
       <%= link_to(l(:label_report), report_project_time_entries_path(@project)) %>
     </p>
+  <% else %>
+    <h3><%= l(:label_spent_time) %></h3>
+    <p>
+      <%= link_to l(:button_log_time), new_time_entry_path %>
+    </p>
   <% end %>
 <% end %>
